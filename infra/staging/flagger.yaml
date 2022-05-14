@@ -10,4 +10,5 @@ spec:
           args:
             - -log-level=info
             - -mesh-provider=nginx
-            - -metrics-server=http://flagger-prometheus:9090
+            - -metrics-server=http://prometheus:9090
+
